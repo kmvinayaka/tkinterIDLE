@@ -98,7 +98,7 @@ class PhotoBoothApp:
 		# save the file
 		cv2.imwrite(p, self.frame.copy())
 		print("[INFO] saved {}".format(self.filename))
-
+	
 	def takename(self):
 		# grab the current timestamp and use it to construct the
 		# output path
