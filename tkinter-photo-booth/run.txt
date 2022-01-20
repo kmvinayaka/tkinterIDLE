@@ -1,0 +1,3 @@
+create folder named output
+run command
+python photo_booth.py -o output
